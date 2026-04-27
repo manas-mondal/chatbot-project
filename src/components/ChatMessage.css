@@ -19,6 +19,9 @@
 }
 .chat-message-profile {
   width: 45px;
+  height: 45px;
+  border-radius: 54px;
+  object-fit: cover;
 }
 .spinner-img {
   height: 40px;

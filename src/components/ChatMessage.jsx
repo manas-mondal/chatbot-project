@@ -1,4 +1,4 @@
-import UserProfileImage from "../assets/user.png";
+import UserProfileImage from "../assets/profile-1.jpg";
 import RobotProfileImage from "../assets/robot.png";
 import "./ChatMessage.css";
 
