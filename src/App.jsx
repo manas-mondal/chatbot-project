@@ -6,11 +6,16 @@ import ChatMessages from "./components/ChatMessages";
 import "./App.css";
 
 function App() {
-  const [chatMessages, setChatMessages] = useState([]);
-
+  const [chatMessages, setChatMessages] = useState(
+    JSON.parse(localStorage.getItem("messages")) || [],
+  );
   // const[chatMessages,setChatMessages]=array;
   // const chatMessages = array[0];
   // const setChatMessages = array[1];
+
+  useEffect(() => {
+    localStorage.setItem("messages", JSON.stringify(chatMessages));
+  }, [chatMessages]);
 
   useEffect(() => {
     chatbot.addResponses({
