@@ -236,5 +236,5 @@ The following features could be added to extend this project further:
 ## Author
 
 **Author:** Manas Mondal  
-**Role:** Frontend Developer (React Learner)  
+**Role:** Full Stack Developer (React Learner)  
 **Project type:** Personal learning project — first major React application
